@@ -1,0 +1,24 @@
+{
+  "name": "signed-url",
+  "version": "1.0.0",
+  "description": "The Repository is used for creating the signed URL for cloud-front.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/premprathee/signed-URL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/premprathee/signed-URL/issues"
+  },
+  "homepage": "https://github.com/premprathee/signed-URL#readme",
+  "dependencies": {
+    "aws-cloudfront-sign": "^2.2.0",
+    "dotenv": "^8.0.0",
+    "moment": "^2.24.0"
+  }
+}
